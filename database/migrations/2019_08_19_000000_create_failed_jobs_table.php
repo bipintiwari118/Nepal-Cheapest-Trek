@@ -1,3 +1,4 @@
+git push -u origin main --force
 <?php
 
 use Illuminate\Database\Migrations\Migration;
