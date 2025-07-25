@@ -1,22 +1,23 @@
  <header class="sticky top-0 z-50 bg-white shadow">
-     <div class="container mx-auto  py-[20px] flex items-center justify-evenly">
+     <div class="container mx-auto  py-[25px] flex items-center justify-evenly">
          <!-- Logo -->
          <a href="#" class="text-2xl font-bold text-indigo-600">MyLogo</a>
 
          <!-- Desktop & Tablet Menu -->
-         <nav class="hidden md:flex gap-10 items-center pl-[200px]">
+         <nav class="hidden md:flex gap-10 items-center pl-[200px] text-[20px] font-[500]">
              <a href="#" class="text-gray-600 hover:text-indigo-600">Home</a>
 
              <!-- Destination Dropdown -->
              <div class="relative">
-                 <button class="flex items-center text-gray-600 dropdown-toggle">
+                 <button class="flex items-center text-gray-600 dropdown-toggle hover:text-indigo-600">
                      Destination
                      <svg class="ml-1 w-4 h-4 arrow transition-transform duration-300" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                      </svg>
                  </button>
-                 <div class="absolute left-0 mt-2 w-48 bg-white border rounded shadow-md hidden dropdown-menu z-50">
+                 <div
+                     class="absolute left-0 mt-2 w-48 bg-white border rounded shadow-md hidden dropdown-menu z-50 font-[400]">
                      <a href="#" class="block px-4 py-2 hover:bg-gray-100">Nepal</a>
                      <a href="#" class="block px-4 py-2 hover:bg-gray-100">India</a>
                      <a href="#" class="block px-4 py-2 hover:bg-gray-100">Bhutan</a>
@@ -25,14 +26,15 @@
 
              <!-- Activity Dropdown -->
              <div class="relative">
-                 <button class="flex items-center text-gray-600 dropdown-toggle">
+                 <button class="flex items-center text-gray-600 dropdown-toggle hover:text-indigo-600">
                      Activity
                      <svg class="ml-1 w-4 h-4 arrow transition-transform duration-300" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                      </svg>
                  </button>
-                 <div class="absolute left-0 mt-2 w-48 bg-white border rounded shadow-md hidden dropdown-menu z-50">
+                 <div
+                     class="absolute left-0 mt-2 w-48 bg-white border rounded shadow-md hidden dropdown-menu z-50 font-[400]">
                      <a href="#" class="block px-4 py-2 hover:bg-gray-100">Trekking</a>
                      <a href="#" class="block px-4 py-2 hover:bg-gray-100">Hiking</a>
                      <a href="#" class="block px-4 py-2 hover:bg-gray-100">Climbing</a>
@@ -60,7 +62,8 @@
 
              <!-- Mobile Dropdown: Destination -->
              <div>
-                 <button class="w-full flex justify-between items-center text-gray-700 dropdown-toggle">
+                 <button
+                     class="w-full flex justify-between items-center text-gray-700 dropdown-toggle hover:text-indigo-600">
                      Destination
                      <svg class="w-4 h-4 arrow transition-transform duration-300" fill="none" stroke="currentColor"
                          viewBox="0 0 24 24" stroke-width="2">
