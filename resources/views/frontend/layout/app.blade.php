@@ -28,6 +28,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
     <style>
         .rotate-180 {
             transform: rotate(180deg);
@@ -48,8 +53,11 @@
 
     @include('frontend.layout.footer')
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     @stack('scripts')
+
 
 </body>
 

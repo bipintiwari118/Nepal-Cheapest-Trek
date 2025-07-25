@@ -735,6 +735,210 @@
 
         </div>
     </section>
+
+
+    {{-- review section --}}
+
+    <section class=" bg-white py-16 bg-cover bg-center "
+        style="background-image: url('frontend/images/reviewbackground.jpg');">
+
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Heading -->
+            <div class="text-center mb-12 font-caveat">
+                <h2 class="text-h3 md:text-h1 font-bold text-green-800">What Others Are Saying</h2>
+                <p class="text-gray-600 text-para mt-2">See how others enjoyed their adventures with us.</p>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-black text-base mb-4">"Amazing experience! The Everest Base Camp trek was
+                            unforgettable. Everything was perfectly organized..." <button
+                                class="inline text-sm font-medium text-blue-600 hover:underline ml-1">
+                                See More
+                            </button></p>
+
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/women/1.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 1">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Sarah M.</h4>
+                                <p class="text-sm text-gray-500">United States
+                                </p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-gray-700 text-base mb-4">"I loved every bit of my trip. The team was very helpful
+                            and the views were breathtaking!"</p>
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/men/2.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 2">
+                            <div>
+                                <h4 class="font-bold text-gray-800">John D.</h4>
+                                <p class="text-sm text-gray-500">Australia</p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-gray-700 text-base mb-4">"One of the best trekking companies in Nepal! Safe, fun,
+                            and incredibly scenic."</p>
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 3">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Emma W.</h4>
+                                <p class="text-sm text-gray-500">UK</p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-gray-700 text-base mb-4">"One of the best trekking companies in Nepal! Safe, fun,
+                            and incredibly scenic."</p>
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 3">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Emma W.</h4>
+                                <p class="text-sm text-gray-500">UK</p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-gray-700 text-base mb-4">"Amazing experience! The Everest Base Camp trek was
+                            unforgettable. Everything was perfectly organized."</p>
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/women/1.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 1">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Sarah M.</h4>
+                                <p class="text-sm text-gray-500">United States</p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-gray-700 text-base mb-4">"I loved every bit of my trip. The team was very helpful
+                            and the views were breathtaking!"</p>
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/men/2.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 2">
+                            <div>
+                                <h4 class="font-bold text-gray-800">John D.</h4>
+                                <p class="text-sm text-gray-500">Australia</p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-gray-700 text-base mb-4">"One of the best trekking companies in Nepal! Safe, fun,
+                            and incredibly scenic."</p>
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 3">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Emma W.</h4>
+                                <p class="text-sm text-gray-500">UK</p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bg-gray-200 p-6 rounded-2xl shadow-md">
+                        <p class="text-gray-700 text-base mb-4">"One of the best trekking companies in Nepal! Safe, fun,
+                            and incredibly scenic."</p>
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-12 h-12 rounded-full"
+                                alt="Reviewer 3">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Emma W.</h4>
+                                <p class="text-sm text-gray-500">UK</p>
+                                <span class="text-yellow-400 ml-2 space-x-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more slides as needed -->
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-pre"></div>
+
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination mt-6"></div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="#all-reviews"
+                    class="inline-block px-6 py-3 text-white bg-yellow-700 font-semibold rounded-full shadow-md hover:shadow-xl hover:bg-yellow-900 transition duration-300 text-base md:text-lg">
+                    See All Reviews
+                </a>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @push('scripts')
@@ -797,5 +1001,39 @@
             css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
             document.body.appendChild(css);
         };
+
+
+
+        //for review
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
     </script>
 @endpush
