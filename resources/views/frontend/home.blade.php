@@ -61,37 +61,37 @@
         /* about us button */
 
         /* From Uiverse.io by alexmaracinaru */
-.aboutusBtn {
-  cursor: pointer;
-  font-weight: 700;
-  transition: all 0.2s;
-  padding: 10px 20px;
-  border-radius: 100px;
-  background: #cfef00;
-  border: 1px solid transparent;
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-}
+        .aboutusBtn {
+            cursor: pointer;
+            font-weight: 700;
+            transition: all 0.2s;
+            padding: 10px 20px;
+            border-radius: 100px;
+            background: #cfef00;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            color:black;
+        }
 
-.aboutusBtn:hover {
-  background: #c4e201;
-}
+        .aboutusBtn:hover {
+            background: #c4e201;
+        }
 
-.aboutusBtn > svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform 0.3s ease-in-out;
-}
+        .aboutusBtn>svg {
+            width: 34px;
+            margin-left: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
 
-.aboutusBtn:hover svg {
-  transform: translateX(5px);
-}
+        .aboutusBtn:hover svg {
+            transform: translateX(5px);
+        }
 
-.aboutusBtn:active {
-  transform: scale(0.95);
-}
-
+        .aboutusBtn:active {
+            transform: scale(0.95);
+        }
     </style>
 @endsection
 
@@ -497,9 +497,13 @@
 
     {{-- about us section --}}
 
-    <section class="relative bg-cover bg-center bg-no-repeat"
-        style="background-image: url('frontend/images/aboutsusbackground1.jpg');">
-        <div class="bg-black bg-opacity-10 w-full h-full absolute top-0 left-0"></div>
+    <section class="relative w-full h-auto overflow-hidden">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="{{ asset('frontend/images/aboutusvideo1.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="bg-black bg-opacity-60 w-full h-full absolute top-0 left-0"></div>
 
         <div
             class="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col lg:flex-row items-center justify-between gap-10">
@@ -511,7 +515,7 @@
             </div>
 
             <!-- Right Content -->
-            <div class="w-full lg:w-1/2 text-black">
+            <div class="w-full lg:w-1/2 text-white">
                 <h2 class="text-h2 font-bold mb-4">About Us</h2>
                 <p class="text-para leading-relaxed mb-6">
                     At Everest Trekking, we specialize in offering unforgettable journeys through the majestic Himalayas.
