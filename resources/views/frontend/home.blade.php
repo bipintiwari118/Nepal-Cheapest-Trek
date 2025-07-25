@@ -948,6 +948,104 @@
             </div>
         </div>
     </section>
+
+
+
+    {{-- destination section --}}
+
+    <section class="bg-white py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12 font-caveat">
+                <h2 class="text-h3 md:text-h1 font-bold text-green-800">Top Destinations</h2>
+                <p class="text-gray-600 text-para mt-2 max-w-xl mx-auto">
+                    Discover the most popular places to explore and experience unforgettable journeys.
+                </p>
+            </div>
+
+            <div class="flex flex-wrap gap-6 justify-center">
+                <!-- Destination Card -->
+                <div
+                    class="relative w-full sm:w-[48%] lg:w-[31%] xl:w-[23%] overflow-hidden group cursor-pointer rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                        alt="Nepal"
+                        class="w-full h-80 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 rounded-lg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6 text-white rounded-lg">
+                        <h3 class="text-3xl font-extrabold mb-2">Nepal</h3>
+                        <p class="text-base mb-4 leading-relaxed max-w-[260px]">
+                            The Himalayan kingdom known for Mount Everest and diverse trekking routes.
+                        </p>
+                        <a href="#"
+                            class="w-auto max-w-[120px] text-center inline-block bg-gradient-to-r from-green-400 to-blue-600 text-white px-5 py-3 rounded-full font-semibold shadow-lg hover:brightness-110 transition">
+                            25 Trips
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Repeat similar blocks for Bhutan, India, Tibet, etc... -->
+
+                <div
+                    class="relative w-full sm:w-[48%] lg:w-[31%] xl:w-[23%] overflow-hidden group cursor-pointer rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
+                        alt="Bhutan"
+                        class="w-full h-80 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 rounded-lg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6 text-white rounded-lg">
+                        <h3 class="text-3xl font-extrabold mb-2">Bhutan</h3>
+                        <p class="text-base mb-4 leading-relaxed max-w-[260px]">
+                            The land of the Thunder Dragon, famous for its monasteries and culture.
+                        </p>
+                        <a href="#"
+                            class="w-auto max-w-[120px] text-center inline-block bg-gradient-to-r from-green-400 to-blue-600 text-white px-5 py-3 rounded-full font-semibold shadow-lg hover:brightness-110 transition">
+                            12 Trips
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="relative w-full sm:w-[48%] lg:w-[31%] xl:w-[23%] overflow-hidden group cursor-pointer rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80"
+                        alt="Tibet"
+                        class="w-full h-80 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 rounded-lg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6 text-white rounded-lg">
+                        <h3 class="text-3xl font-extrabold mb-2">Tibet</h3>
+                        <p class="text-base mb-4 leading-relaxed max-w-[260px]">
+                            The Roof of the World, offering stunning landscapes and rich Tibetan culture.
+                        </p>
+                        <a href="#"
+                            class="w-auto max-w-[120px] text-center inline-block bg-gradient-to-r from-green-400 to-blue-600 text-white px-5 py-3 rounded-full font-semibold shadow-lg hover:brightness-110 transition">
+                            20 Trips
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Repeat similar blocks for Bhutan, India, Tibet, etc... -->
+
+                <div
+                    class="relative w-full sm:w-[48%] lg:w-[31%] xl:w-[23%] overflow-hidden group cursor-pointer rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80"
+                        alt="India"
+                        class="w-full h-80 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 rounded-lg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6 text-white rounded-lg">
+                        <h3 class="text-3xl font-extrabold mb-2">India</h3>
+                        <p class="text-base mb-4 leading-relaxed max-w-[260px]">
+                            A vast and diverse country with spiritual heritage and majestic landscapes.
+                        </p>
+                        <a href="#"
+                            class="w-auto max-w-[120px] text-center inline-block bg-gradient-to-r from-green-400 to-blue-600 text-white px-5 py-3 rounded-full font-semibold shadow-lg hover:brightness-110 transition">
+                            10 Trips
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Add more destination cards similarly -->
+
+            </div>
+        </div>
+    </section>
 @endsection
 
 @push('scripts')
