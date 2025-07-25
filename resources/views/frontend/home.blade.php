@@ -72,7 +72,7 @@
             display: flex;
             align-items: center;
             font-size: 15px;
-            color:black;
+            color: black;
         }
 
         .aboutusBtn:hover {
@@ -538,6 +538,200 @@
                     </svg>
                 </a>
             </div>
+
+        </div>
+    </section>
+
+
+    {{-- most selling treks --}}
+
+    <section class="relative w-full py-16 px-4 md:px-10 bg-cover bg-center"
+        style="background-image: url('frontend/images/tourbackground1.jpg');">
+        <!-- White background overlay -->
+        <div class="absolute inset-0 bg-white bg-opacity-60 z-0"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto mb-12 pl-[40px] font-caveat">
+            <h2 class="text-h3 md:text-h1 font-bold text-blue-800">Best Selling Tours in Nepal</h2>
+            <p class="mt-2 text-gray-600 text-para">
+                Explore Nepal’s most popular and breathtaking tour experiences loved by travelers worldwide.
+            </p>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="relative z-10 max-w-7xl mx-auto flex flex-wrap justify-center gap-6">
+
+            <!-- Trek Card -->
+            <div class="w-full sm:w-[48%] lg:w-[30%] mb-6 bg-white shadow-lg rounded-xl overflow-hidden group relative ">
+
+                <div
+                    class="absolute top-[100px] left-0 bg-gradient-to-r from-pink-500 to-red-500 text-white text-sm font-bold px-4 py-1 rounded-r-xl shadow-md z-10">
+                    10% OFF
+                </div>
+                <!-- Image -->
+                <img src="{{ asset('frontend/images/ktm tour.jpg') }}" alt="Trek 1"
+                    class="w-full h-56 sm:h-60 object-cover">
+
+                <!-- Title -->
+                <div class="p-4">
+                    <h3 class="text-lg sm:text-xl font-semibold text-slate-800 py-[10px]">Kathmandu Tour</h3>
+                    <div class="w-full flex justify-between pt-[10px] items-center flex-wrap gap-4">
+                        <!-- Time / Duration -->
+                        <div class="flex items-center gap-2 bg-slate-100 px-4 py-1.5 rounded-full shadow-sm">
+                            <i class="fa-regular fa-clock text-green-600 text-base"></i>
+                            <span class="font-semibold text-gray-700">5 Days</span>
+                        </div>
+
+                        <!-- Price with Best Deal Badge -->
+                        <div class="relative flex items-end gap-3">
+                            <!-- Old Price -->
+                            <span
+                                class="text-sm font-semibold text-black line-through bg-gray-100 px-4 py-2 rounded-full shadow-sm">
+                                $600
+                            </span>
+
+                            <!-- New Price with Superscript Badge -->
+                            <div class="relative">
+                                <!-- Superscript Badge -->
+                                <div
+                                    class="absolute -top-4 -right-3 bg-yellow-400 text-black text-[10px] font-semibold px-1.5 py-0.5 rounded-full shadow">
+                                    Best Deal
+                                </div>
+
+                                <!-- New Price -->
+                                <span
+                                    class="bg-gradient-to-r from-green-600 to-blue-600 text-white font-bold text-lg px-5 py-2 rounded-full shadow-md">
+                                    $540
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Overlay -->
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-[#494848c2] via-[#43434399] to-[#51505066] flex flex-col gap-y-2 items-center justify-center transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-10">
+                    <a href="#"
+                        class="viewBtn opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-r  text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:shadow-xl hover:brightness-110">
+                        <span>View More</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-[48%] lg:w-[30%] mb-6 bg-white shadow-lg rounded-xl overflow-hidden group relative ">
+
+                <div
+                    class="absolute top-[100px] left-0 bg-gradient-to-r from-pink-500 to-red-500 text-white text-sm font-bold px-4 py-1 rounded-r-xl shadow-md z-10">
+                    15% OFF
+                </div>
+                <!-- Image -->
+                <img src="{{ asset('frontend/images/pokhara tour 1.webp') }}" alt="Trek 1"
+                    class="w-full h-56 sm:h-60 object-cover">
+
+                <!-- Title -->
+                <div class="p-4">
+                    <h3 class="text-lg sm:text-xl font-semibold text-slate-800 py-[10px]">Pokhara Tour</h3>
+                    <div class="w-full flex justify-between pt-[10px] items-center flex-wrap gap-4">
+                        <!-- Time / Duration -->
+                        <div class="flex items-center gap-2 bg-slate-100 px-4 py-1.5 rounded-full shadow-sm">
+                            <i class="fa-regular fa-clock text-green-600 text-base"></i>
+                            <span class="font-semibold text-gray-700">6 Days</span>
+                        </div>
+
+                        <!-- Price with Best Deal Badge -->
+                        <div class="relative flex items-end gap-3">
+                            <!-- Old Price -->
+                            <span
+                                class="text-sm font-semibold text-black line-through bg-gray-100 px-4 py-2 rounded-full shadow-sm">
+                                $800
+                            </span>
+
+                            <!-- New Price with Superscript Badge -->
+                            <div class="relative">
+                                <!-- Superscript Badge -->
+                                <div
+                                    class="absolute -top-4 -right-3 bg-yellow-400 text-black text-[10px] font-semibold px-1.5 py-0.5 rounded-full shadow">
+                                    Best Deal
+                                </div>
+
+                                <!-- New Price -->
+                                <span
+                                    class="bg-gradient-to-r from-green-600 to-blue-600 text-white font-bold text-lg px-5 py-2 rounded-full shadow-md">
+                                    $675
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Overlay -->
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-[#494848c2] via-[#43434399] to-[#51505066] flex flex-col gap-y-2 items-center justify-center transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-10">
+                    <a href="#"
+                        class="viewBtn opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-r  text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:shadow-xl hover:brightness-110">
+                        <span>View More</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-[48%] lg:w-[30%] mb-6 bg-white shadow-lg rounded-xl overflow-hidden group relative ">
+
+                <div
+                    class="absolute top-[100px] left-0 bg-gradient-to-r from-pink-500 to-red-500 text-white text-sm font-bold px-4 py-1 rounded-r-xl shadow-md z-10">
+                    20% OFF
+                </div>
+                <!-- Image -->
+                <img src="{{ asset('frontend/images/chitwantour.webp') }}" alt="Trek 1"
+                    class="w-full h-56 sm:h-60 object-cover">
+
+                <!-- Title -->
+                <div class="p-4">
+                    <h3 class="text-lg sm:text-xl font-semibold text-slate-800 py-[10px]">Chitwan Wildlife Safari</h3>
+                    <div class="w-full flex justify-between pt-[10px] items-center flex-wrap gap-4">
+                        <!-- Time / Duration -->
+                        <div class="flex items-center gap-2 bg-slate-100 px-4 py-1.5 rounded-full shadow-sm">
+                            <i class="fa-regular fa-clock text-green-600 text-base"></i>
+                            <span class="font-semibold text-gray-700">9 Days</span>
+                        </div>
+
+                        <!-- Price with Best Deal Badge -->
+                        <div class="relative flex items-end gap-3">
+                            <!-- Old Price -->
+                            <span
+                                class="text-sm font-semibold text-black line-through bg-gray-100 px-4 py-2 rounded-full shadow-sm">
+                                $800
+                            </span>
+
+                            <!-- New Price with Superscript Badge -->
+                            <div class="relative">
+                                <!-- Superscript Badge -->
+                                <div
+                                    class="absolute -top-4 -right-3 bg-yellow-400 text-black text-[10px] font-semibold px-1.5 py-0.5 rounded-full shadow">
+                                    Best Deal
+                                </div>
+
+                                <!-- New Price -->
+                                <span
+                                    class="bg-gradient-to-r from-green-600 to-blue-600 text-white font-bold text-lg px-5 py-2 rounded-full shadow-md">
+                                    $640
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Overlay -->
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-[#494848c2] via-[#43434399] to-[#51505066] flex flex-col gap-y-2 items-center justify-center transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-10">
+                    <a href="#"
+                        class="viewBtn opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-r  text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:shadow-xl hover:brightness-110">
+                        <span>View More</span>
+                    </a>
+                </div>
+            </div>
+
 
         </div>
     </section>
