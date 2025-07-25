@@ -54,6 +54,44 @@
         .viewBtn:hover::before {
             transform: translate3d(100%, 0, 0);
         }
+
+
+
+
+        /* about us button */
+
+        /* From Uiverse.io by alexmaracinaru */
+.aboutusBtn {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.aboutusBtn:hover {
+  background: #c4e201;
+}
+
+.aboutusBtn > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aboutusBtn:hover svg {
+  transform: translateX(5px);
+}
+
+.aboutusBtn:active {
+  transform: scale(0.95);
+}
+
     </style>
 @endsection
 
@@ -451,6 +489,52 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+
+
+    {{-- about us section --}}
+
+    <section class="relative bg-cover bg-center bg-no-repeat"
+        style="background-image: url('frontend/images/aboutsusbackground1.jpg');">
+        <div class="bg-black bg-opacity-10 w-full h-full absolute top-0 left-0"></div>
+
+        <div
+            class="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col lg:flex-row items-center justify-between gap-10">
+
+            <!-- Left Image -->
+            <div class="w-full lg:w-1/2">
+                <img src="{{ asset('frontend/images/everest-base-camp-trek-everesthikes-1536x1152.jpg') }}" alt="Our Team"
+                    class="rounded-2xl shadow-xl w-full object-cover">
+            </div>
+
+            <!-- Right Content -->
+            <div class="w-full lg:w-1/2 text-black">
+                <h2 class="text-h2 font-bold mb-4">About Us</h2>
+                <p class="text-para leading-relaxed mb-6">
+                    At Everest Trekking, we specialize in offering unforgettable journeys through the majestic Himalayas.
+                    Our team is dedicated to safety, sustainability, and creating experiences that last a lifetime.
+                    At Everest Trekking, we specialize in offering unforgettable journeys through the majestic Himalayas.
+                    Our team is dedicated to safety, sustainability, and creating experiences that last a lifetime.
+                    At Everest Trekking, we specialize in offering unforgettable journeys through the majestic Himalayas.
+                    Our team is dedicated to safety, sustainability, and creating experiences that last a lifetime.
+                    At Everest Trekking, we specialize in offering unforgettable journeys through the majestic Himalayas.
+                    Our team is dedicated to safety, sustainability, and creating experiences that last a lifetime.
+                </p>
+                <a class="aboutusBtn w-[150px]">
+                    <span>Continue</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 74 74" height="34"
+                        width="34">
+                        <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+                        <path fill="black"
+                            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+
         </div>
     </section>
 @endsection
